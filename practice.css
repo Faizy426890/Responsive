@@ -52,7 +52,7 @@
   background-color: #ffffff;  
   position: absolute;   
   top: 0; 
-  left: 100vw; 
+  left: 100vw;  
   overflow-y: auto; 
   overflow-x: hidden;
   border: 1px solid #ccc;
@@ -146,7 +146,7 @@ filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(70deg) brightness(99%)
   position: relative;  
   top: 5vh;  
   left: 1vw;
-  font-size: 1.2vw; 
+  font-size: 1.3vw; 
   letter-spacing: 2px;
 } 
 .Product-image{ 
@@ -197,7 +197,7 @@ filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(70deg) brightness(99%)
   width: 35px;  
 }   
 #logo{ 
-  filter: invert(85%) sepia(69%) saturate(328%) hue-rotate(297deg) brightness(122%) contrast(92%);
+  filter: invert(84%) sepia(69%) saturate(328%) hue-rotate(297deg) brightness(122%) contrast(95%);
 }
 .cross{    
   display: none; 
@@ -387,7 +387,10 @@ filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(70deg) brightness(99%)
  }
   .navbar{ 
     height: 50px;
-  } 
+  }  
+  .Pro-details{ 
+    font-size: 13px;
+  }
   #logo{ 
     height: 40px; 
     width: 75px;
@@ -525,7 +528,7 @@ align-content: center;
 }   
 @media (max-width: 408px){
 #logo{ 
-  height: 38px; 
+  height: 36px; 
   width: 88px; 
 }  
 .Add-More span{  
