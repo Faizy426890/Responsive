@@ -522,7 +522,18 @@ align-content: center;
 .main-section img{ 
   height: 100%;
 }  
+} 
+.Product-image{  
+  height: 84%;  
+}  
+.Pro-details{   
+  font-size: 13px; 
+  margin-left: 15px;
 }
+#logo{ 
+  height: 36px; 
+  width: 88px; 
+}  
 .navbar{ 
   height: 50px; 
 }   
@@ -530,6 +541,10 @@ align-content: center;
 #logo{ 
   height: 36px; 
   width: 88px; 
+}   
+.Product-image img{  
+  height: 78%; 
+  width: 98%;  
 }  
 .Add-More span{  
   margin-left: 11px; 
