@@ -210,9 +210,9 @@ function done(){
   var currentLeft = cart.style.left || '100vw'; 
   var body = document.querySelector('body'); 
   if (mediaQuery.matches){  
-    cart.style.left = currentLeft === '100vw' ? '32vw' : '100vw';
+    cart.style.left = currentLeft === '100vw' ? '25vw' : '100vw';
   } else {
-  cart.style.left = currentLeft === '100vw' ? '70vw' : '100vw'; 
+  cart.style.left = currentLeft === '100vw' ? '75vw' : '100vw'; 
   body.style.overflow = currentLeft === '100vw' ? 'hidden' : 'auto';   
 }
 }
