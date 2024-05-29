@@ -128,20 +128,22 @@ filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(70deg) brightness(99%)
 .added-items p{ 
   font-family: "Nunito Sans", sans-serif;  
 }   
-.Add-More span{    
-  position: relative;
-  margin-left: 10px; 
-  top: 1px; 
-}
+
 .Add-More{ 
   height: 4vh; 
-  width: 100%;  
+  width: 75%;  
   position: relative;  
-  padding: 2px; 
-  top: 4vh;
+  padding: 2px;  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  top: 3vh;
   border: 1px solid rgb(121, 121, 121); 
   margin-left: 0.5vw;
-}
+} 
+.Add-More span{ 
+  margin: 0 6px;
+ }
 .Pro-details{  
   position: relative;  
   top: 5vh;  
@@ -151,8 +153,9 @@ filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(70deg) brightness(99%)
   letter-spacing: 2px;
 } 
 .Product-image{ 
-  height: auto;  
-} 
+  height: auto;    
+}  
+
 .cartitemPrice{ 
  position: relative;  
  top: 15vh;    
@@ -329,13 +332,13 @@ filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(70deg) brightness(99%)
   } 
   .Pro-details{ 
     position: relative; 
-    left: 2vw;  
-    top: 5vh;  
-    font-size: 2.4vw;
+    left: 16vw;  
+    top: 6vh;  
   }
   .cartitemPrice{ 
    position: relative;  
-   top: 12vh;  
+   top: 15vh;   
+   left: 22vw;
   }
   .added-items img{ 
     height: 12vh; 
@@ -348,10 +351,6 @@ filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(70deg) brightness(99%)
   }  */
   .cart{  
     left: 5px; 
-  } 
-  .Add-More span{  
-    margin-left: 9px; 
-    top: 1px;
   } 
 }
 #price2{ 
@@ -382,18 +381,26 @@ filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(70deg) brightness(99%)
     margin-top: -40px;
   }  
   .Add-More span{  
-    margin-left: 15px; 
-    top: 5px; 
-    font-size: large;
+    margin: 0 6px;
  }  
  .Add-More{ 
-  width: 100%;
+  width: 100%; 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
  }
   .navbar{ 
     height: 50px;
   }  
   .Pro-details{ 
-    font-size: 13px;
+    position: relative; 
+    left: 10vw;  
+    top: 6vh;  
+  }
+  .cartitemPrice{ 
+   position: relative;  
+   top: 12vh;   
+   left: 8vw;
   }
   #logo{ 
     height: 40px; 
@@ -448,6 +455,7 @@ text-align: center;
     margin-left: 13px; 
     top: 11px;
   } 
+
 }
 
 .about{ 
@@ -531,7 +539,10 @@ align-content: center;
 }  
 .Pro-details{   
   font-size: 13px; 
-  margin-left: 15px;
+  margin-left: 12px;
+} 
+.cartitemPrice{ 
+  margin-right: vw;
 }
 #logo{ 
   height: 36px; 
@@ -540,19 +551,33 @@ align-content: center;
 .navbar{ 
   height: 50px; 
 }   
-@media (max-width: 408px){
+@media (max-width: 440px){
 #logo{ 
   height: 36px; 
   width: 88px; 
 }   
 .Product-image img{  
-  height: 78%; 
+  height: 70%; 
   width: 98%;  
-}  
-.Add-More span{  
-  margin-left: 11px; 
-  top: 3px;
-} 
+}   
+.Add-More{
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+}
+.Add-More span{ 
+  margin: 0 6px;
+}
+.Pro-details{ 
+  position: relative; 
+  left: 7vw;  
+  top: 6vh;  
+}
+.cartitemPrice{ 
+ position: relative;  
+ top: 12vh;   
+ left: 4vw;
+}
 .navbar{ 
   height: 45px;
 }  

@@ -128,7 +128,8 @@ function addProducts2(img,details,pric){
     var addImage = document.createElement("div");  
     addImage.className="Product-image";
     let Productimg = document.createElement("img"); 
-    Productimg.src=img;    
+    Productimg.src=img;     
+    Productimg.className="Image-Product";
     addImage.appendChild(Productimg);
     let addMore = document.createElement("div"); 
     addMore.className="Add-More";    
