@@ -130,7 +130,7 @@ filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(70deg) brightness(99%)
 }   
 .Add-More span{    
   position: relative;
-  margin-left: 8px; 
+  margin-left: 10px; 
   top: 1px; 
 }
 .Add-More{ 
@@ -146,15 +146,17 @@ filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(70deg) brightness(99%)
   position: relative;  
   top: 5vh;  
   left: 1vw;
-  font-size: 1.3vw; 
+  font-size: 1.3vw;  
+  width: 12vw;
   letter-spacing: 2px;
 } 
 .Product-image{ 
-  height: auto; 
+  height: auto;  
 } 
 .cartitemPrice{ 
  position: relative;  
- top: 15vh;   
+ top: 15vh;    
+ left: 2vw;
  white-space: nowrap;
 }
 .added-items img{  
@@ -298,7 +300,8 @@ filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(70deg) brightness(99%)
    }     
    .Pro-details{ 
      position: relative; 
-     left: 3vw; 
+     left: 5vw;  
+     width: 23vw;
      top: 5vh; 
      font-size: 1.4vw;
    }
@@ -332,7 +335,7 @@ filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(70deg) brightness(99%)
   }
   .cartitemPrice{ 
    position: relative;  
-   top: 12vh; 
+   top: 12vh;  
   }
   .added-items img{ 
     height: 12vh; 
@@ -380,10 +383,11 @@ filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(70deg) brightness(99%)
   }  
   .Add-More span{  
     margin-left: 15px; 
-    top: 5px;
+    top: 5px; 
+    font-size: large;
  }  
  .Add-More{ 
-  width: 120%;
+  width: 100%;
  }
   .navbar{ 
     height: 50px;
@@ -397,7 +401,6 @@ filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(70deg) brightness(99%)
   } 
   .cartitemPrice{ 
      margin-top: 40px;
-     margin-left: 10px;
   }
 }
 .product-head{ 
@@ -523,8 +526,8 @@ align-content: center;
   height: 100%;
 }  
 } 
-.Product-image{  
-  height: 84%;  
+.Product-image img{    
+  width: 20vw;
 }  
 .Pro-details{   
   font-size: 13px; 

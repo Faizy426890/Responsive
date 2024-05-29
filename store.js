@@ -188,16 +188,16 @@ function addProducts2(img,details,pric){
 function addToCart(price) { 
   // Update the total price
   const checkoutPriceElement = document.getElementById("checkoutPrice");
-  const currentTotal = parseFloat(checkoutPriceElement.textContent.replace("Total: $", ""));
+  const currentTotal = parseFloat(checkoutPriceElement.textContent.replace("Total: ", ""));
   const newTotal = currentTotal+price;
-  checkoutPriceElement.textContent = "Total: $" + newTotal;
+  checkoutPriceElement.textContent = "Total: " + newTotal;
 }
   function SubfromCart(price){ 
     const checkoutPriceElement = document.getElementById("checkoutPrice");
-    const currentTotal = parseFloat(checkoutPriceElement.textContent.replace("Total: $", "")); 
+    const currentTotal = parseFloat(checkoutPriceElement.textContent.replace("Total: ", "")); 
     
     const newTotal = currentTotal-price;  
-    checkoutPriceElement.textContent = "Total: $" + newTotal; 
+    checkoutPriceElement.textContent = "Total: " + newTotal; 
   }
 addProducts2("https://i.pinimg.com/originals/1a/f5/f7/1af5f7952a9ddb583466ad5ac635a357.png","MODERN JEANS",3499); 
 addProducts2("https://freepngimg.com/thumb/categories/599.png","BLACK JEANS",3699);  
@@ -212,7 +212,7 @@ function done(){
   if (mediaQuery.matches){  
     cart.style.left = currentLeft === '100vw' ? '25vw' : '100vw';
   } else {
-  cart.style.left = currentLeft === '100vw' ? '75vw' : '100vw'; 
+  cart.style.left = currentLeft === '100vw' ? '70vw' : '100vw'; 
   body.style.overflow = currentLeft === '100vw' ? 'hidden' : 'auto';   
 }
 }
